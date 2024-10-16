@@ -1,0 +1,70 @@
+{
+    "@context": {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "dct": "http://purl.org/dc/terms/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dcatnoextension": "http://fellesdatakatalog.digdir.no/vocabularies/dcatnoextension#",
+      "publisher": {
+        "@context": {
+          "@base": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/"
+        },
+        "@type": "@id",
+        "@id": "dct:publisher"
+      },
+      "accessRights": {
+        "@context": {
+          "@base": "http://publications.europa.eu/resource/authority/access-right/"
+        },
+        "@type": "@id",
+        "@id": "dct:accessRights"
+      },
+      "language": {
+        "@context": {
+          "languageCode": "http://publications.europa.eu/ontology/authority/authority-code"
+        },
+        "@id": "dct:language"
+      },
+      "accessRequesteeType": {
+        "@context": {
+          "@base": "http://fellesdatakatalog.digdir.no/vocabularies/accessRequesteeTypes/"
+        },
+        "@type": "@id",
+        "@id": "dcatnoextension:accessRequesteeType"
+      }
+    },
+    "@id": "https://registrering.fellesdatakatalog.digdir.no/catalogs/917422575/datasets/2782049d-1c69-447c-ba64-7daf9a56b5c2",
+    "@type": "dcat:Dataset",
+    "accessRequesteeType": "RegisteredOrganization",
+    "accessRights": "PUBLIC",
+    "dct:description": {
+      "@language": "nb",
+      "@value": "Datasettet består av beregnede utslipp på ruteplandata fra Entur. Ruteplandataene (GTFS) er åpne data distribuert av Entur, og vil være historiske og planlagte reiser minimum tre måneder frem i tid. De beregnede utslippene kommer fra Sintef sin Energimodul, en fysikkmodell som beregner utslippet basert på energiforbruk. "
+    },
+    "dct:identifier": "https://registrering.fellesdatakatalog.digdir.no/catalogs/917422575/datasets/2782049d-1c69-447c-ba64-7daf9a56b5c2",
+    "dct:issued": {
+      "@type": "xsd:date",
+      "@value": "2024-01-15"
+    },
+    "language": {
+      "@id": "http://publications.europa.eu/resource/authority/language/ENG",
+      "@type": "dct:LinguisticSystem",
+      "languageCode": "ENG",
+      "skos:prefLabel": {
+        "@language": "nb",
+        "@value": "Engelsk"
+      }
+    },
+    "publisher": "917422575",
+    "dct:title": {
+      "@language": "nb",
+      "@value": "Beregnet utslipp i kollektivtransporten"
+    },
+    "dcat:contactPoint": {
+      "@id": "https://registrering.fellesdatakatalog.digdir.no/catalogs/917422575/datasets/2782049d-1c69-447c-ba64-7daf9a56b5c2/.well-known/skolem/9ad6e035-4dd2-3a5c-828f-f6a851f07734",
+      "@type": "vcard:Organization",
+      "vcard:hasEmail": {
+        "@id": "mailto:analytics-guild@entur.org"
+      }
+    }
+  }
