@@ -20,7 +20,7 @@ The JSON-LD is fetched from data.norge.no:
 curl -H "Accept: application/ld+json" https://data.norge.no/datasets/a49ddd4a-8ccf-3054-8164-0bb9bfc9783c > beregnet_utslipp_entur.jsonld
 ```
 
-The fetched data can be seen in the file `beregnet_utslipp_entur.jsonld`
+The fetched data can be seen in the file `beregnet_utslipp_entur.jsonld` (NOTE: I have removed several fields which are currently not relevant for this PoC).
 
 If we run JSON-LD framing with the frame defined in `frame.jsonld` the result will be the jsonld file seen in `output.jsonld`.
 
